@@ -1,0 +1,5 @@
+command.txt
+node_modules
+reports
+cypress/screenshots
+jenkins.war

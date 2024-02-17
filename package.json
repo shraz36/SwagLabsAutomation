@@ -1,0 +1,20 @@
+{
+  "name": "insurwave",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:chrome:headed": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "cypress:login": "./node_modules/.bin/cypress run --headed --browser chrome --env tags=@login",
+    "cypress:electron:headed": "./node_modules/.bin/cypress run --headed"
+  },
+  "keywords": [],
+  "author": "Shravani",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.4"
+  }
+}

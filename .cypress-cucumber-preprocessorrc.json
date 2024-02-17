@@ -1,0 +1,18 @@
+
+{
+  "e2e": {
+        "stepDefinitions": [
+          "cypress/e2e/features/**/*.{js,ts}"
+          
+        ],
+"html": {
+    "enabled": true,
+    "output": "reports/report.html"
+},
+  "omitFiltered": true,
+  "filterSpecs": true    
+  },
+  "component": {
+    "stepDefinitions": "src/[filepath].{js,mjs,ts,tsx}"
+  }
+}
